@@ -1,0 +1,19 @@
+{
+  "name": "mushkila-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "db:migrate": "node migrate.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mushkila-wa-hal": "file:..",
+    "pg": "^8.13.0"
+  }
+}
